@@ -1,1 +1,40 @@
+Questions
+
+1. Vad menas med versionshantering?
+We call versionshantering to the process of updating and changin code while keeping a history of the past version of said code in order to be able to go back for example if there have been mistakes or if one wants to check what changes have been done. It creates a safe environment specially if there is multiple people working in the same project.
+
+2. Vad menas med en “merge” ?
+We call merge to the process of actually “merge” (so, combine, blend) two branches in a github repo. So, when someone has made changes in a branch and merges them they become “one”.
+
+3. Om du vill merga ihop två brancher från terminalen, hur gör du då?
+In the terminal you type:
+1.	git checkout  ##name of the branch you want to merge to##
+2.	git merge ##name of the branch you start the merge from##
+3.	
+4. Nämn ett alternativ till Git.
+I honestly had no idea so I googled it and names such as “SVN” or “Bitbucket” came as an answer.
+https://stackshare.io/git/alternatives
+
+5. Är Git ett verktyg som erbjuds av Github, eller kan man använda Git på andra ställen?
+Git was created by the creator of Linux while GitHub is a website that hosts Git-repositories online. 
+So, GitHub uses Git but Git can be used in many other environments such as the previously mentiond Bitbucket. 
+###The more you know
+6. Vad menas med en “merge conflict” och när kan det uppstå?
+You get the “merge conflict” issue when Git does not know how to merge one branch to another. It can happen for example when the same changes have been made in two branches, thus messing up the history. 
+
+7. Om du vill se en lista med tidigare ändringar / commits i ett Git repo via terminalen, vad skriver du?
+In the terminal you type:
+1.	git log
+
+8. När du skriver “git init” i en mapp, på vilket sätt ändras då mappen?
+When you type “git init”,, it creates a folder called .git which contains all the data that is necessary to be able to work with version control.
+
+9. Varför vill man dela ibland upp sina ändringar i separata “brancher”?
+It just makes it easier to see what is going on, what branches or parts of the code are in development or currently subject to change. It also makes it easier if there is small chunks of code instead of a gigantic piece, again, specially if there is multiple developers who constantly update the code, to find and fix errors.
+
+10. Nämn ett Git command som inte gör några förändringar på remote servern (Github ärtex en remote server), Nämn även ett Git command som gör förändringar på remote servern.
+A command that changes things in the remote server:
+-	git push
+A command that just changes things locally:
+-	git commit
 
