@@ -1,1 +1,43 @@
+Report
+For this assignment I used Git Bash in my regular Windows computer. I use VSCode as my IDE. 
+I started by creating the necessary files via the web client of GitHub.
+And then I just kinda followed the instructions I kept seeing on the github manual (as I wasn’t present in the classes and it was easier to me to follow that manual).
+I opened Git Bash by right clicking in the folder I wanted to copy my repo to. 
+I cloned the repo by typing 
+$ git clone _the name of the repo_ AND .git
+(Worth noting that after every step I followed I runned a $ git status to check everything was working. I’m going to omit this to make everything smoother.)
+To include all the necessary files I runned
+$ git add .
+I proceeded to change the file according to the exercise instructions and did the first commit with
+$ git commit -a
+I needed now to create a new branch and I did this with:
+$ git branch checkout important-changes
+Which of course didn’t work because that is the command to go into that branch but I understood it wrong and the branch was not created yet. I did so with the right command
+$ git branch important-changes
+And then used the checkout to move into that branch.
+I pushed the changes with 
+$ git push origin important-changes
+
+I did the pull request to my own repo from the webclient (as the exercise asked) and merged. This was very easy (thank god).
+
+For the “Del 2” I did not want to bother anyone as everyone had already done this exercise so I tried to do the “improvements”-branch thing on my own repo so that is why that is on my repo as well. Then I thought that was dumb and forked and worked with Leo’s (bayesd) repo. 
+I did basically the same process I had done with my own repo but in another directory and at the end Leo had to approve the changes. 
+I hope that is going to be okay.
+
+$ git clone _the name of the repo_ AND .git
+$ git add .
+$ git commit -a
+$ git branch important-changes
+$ git push origin improvements
+
+ Then I needed someone to make a pull request on myself. Jonny was going to help me do this and he notices that apparently I was supposed to create a whole new repo instead of doing it inside my “DevOps_EC” repo. I didn’t think it was that important as I could do everything normally but just in case I created a new repo with the same content and he did the pull request in that one.  
+I accepted it, everything merged and that is mostly it.
+To finish it, I answered the questions and updated the report via the GitHub web client. 
+•Vad är fördelen med att använda sig av pull requests när man arbetar i ett team av systemutvecklare?
+Pull requests are useful because one can review all the changes that have taken place in the code before accepting and merging branches and so on so you don’t accept things that are unwanted or maybe you can find errors that you can revert before they get merged into the main code.
+As I answered in the questions, I think it’s useful when there is more than one person working in a project.
+• Varför är det viktigt att använda sig av versionshantering? Vad var fördelarna i förhållande till inlämningsuppgiften? Vad är fördelarna med versionshantering och Git mer generellt sett?
+It is very easy to have control over changes and new updates if you use version control. Also it is easy to revert bad updates on the code and makes it easy to maybe find bugs if that is the case. 
+I even had a bit of fun reviewing the different things that people added. Practising a bit was very helpful and helped me understand way better how this worked, which at the beginning of the exercise was a it unclear.
+I really see its utility when it comes to big projects or even if you are just doing something for fun and maybe someone wants to add something to it. Seems a very helpful and good tool that can easily help you get better at coding.
 
